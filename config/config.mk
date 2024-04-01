@@ -7,7 +7,8 @@ PRODUCT_PACKAGES += \
 	NominatimNlpBackend \
 	GeometricWeather \
 	Nextcloud \
-	Mirror
+	Mirror \
+	Smartspacer
 
 # Enable blur unless system is Go version
 ifneq ($(PRODUCT_TYPE), go)
