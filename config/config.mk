@@ -16,7 +16,7 @@ ifneq ($(PRODUCT_TYPE), go)
 endif	
 
 # Include meta-information
-include vendor/polar/config/meta.mk
+include vendor/milkyway/config/meta.mk
 
 # Include private configuration
--include vendor/polar/config/private/config.mk
+-include vendor/milkyway/config/private/config.mk
