@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allow-in-power-save-except-idle package="com.machiav3lli.fdroid.debug" />
+
+    <allow-in-power-save-except-idle package="org.omnirom.omnijaws" />
+
+    <allow-unthrottled-location package="org.microg.nlp.backend.nominatim" />
+    <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
+    <allow-unthrottled-location package="org.microg.nlp" />
+      
+    <system-user-whitelisted-app package="com.machiav3lli.fdroid.debug" />
+</config>
