@@ -3,7 +3,7 @@ PRODUCT_PACKAGES += \
         NeoStore \
 	UnifiedNlp \
 	MozillaNlpBackend \
-	DejavuNlpBackend \
+	DejaVuNlpBackend \
 	NominatimNlpBackend \
 	GeometricWeather \
 	Nextcloud \
