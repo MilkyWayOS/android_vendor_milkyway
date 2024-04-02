@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.kieronquinn.smartspacer">
+    <privapp-permissions package="com.kieronquinn.app.smartspacer">
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="android.permission.FOREGROUND_SERVICE" />
         <permission name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
