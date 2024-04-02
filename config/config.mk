@@ -1,6 +1,6 @@
 # Add apps
 PRODUCT_PACKAGES += \
-        NeoStore \
+    NeoStore \
 	UnifiedNlp \
 	MozillaNlpBackend \
 	DejaVuNlpBackend \
@@ -9,6 +9,9 @@ PRODUCT_PACKAGES += \
 	Nextcloud \
 	Mirror \
 	Smartspacer
+
+# Add system packages
+PRODUCT_PACKAGES += valord
 
 # Enable blur unless system is Go version
 ifneq ($(PRODUCT_TYPE), go)
