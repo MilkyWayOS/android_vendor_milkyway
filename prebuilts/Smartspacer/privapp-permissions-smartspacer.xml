@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.kieronquinn.smartspacer">
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.FOREGROUND_SERVICE" />
+        <permission name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+        <permission name="android.permission.POST_NOTIFICATIONS" />
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" />
+        <permission name="android.permission.ACCESS_FINE_LOCATION" />
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+        <permission name="android.permission.READ_CALENDAR" />
+        <permission name="android.permission.READ_SMS" />
+        <permission name="android.permission.READ_CALL_LOG" />
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <permission name="com.google.android.gm.permission.READ_CONTENT_PROVIDER"/>
+    </privapp-permissions>
+</permissions>
