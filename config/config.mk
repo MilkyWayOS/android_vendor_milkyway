@@ -5,7 +5,7 @@ PRODUCT_PACKAGES += \
 	MozillaNlpBackend \
 	DejaVuNlpBackend \
 	NominatimNlpBackend \
-	GeometricWeather \
+	BreezyWeather \
 	Nextcloud \
 	Mirror \
 	Smartspacer
