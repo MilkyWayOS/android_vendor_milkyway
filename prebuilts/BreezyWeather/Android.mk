@@ -9,4 +9,5 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OPTIONAL_USES_LIBRARIES += \
 		androidx.window.extensions \
 		androidx.window.sidecar
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
