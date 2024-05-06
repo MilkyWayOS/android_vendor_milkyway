@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
 	BreezyWeather \
 	Nextcloud \
 	Mirror \
-	Smartspacer
+	Smartspacer \
+	SettingsInitializer
 
 # Add system packages
 PRODUCT_PACKAGES += valord
