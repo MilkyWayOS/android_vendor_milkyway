@@ -10,4 +10,5 @@ LOCAL_OPTIONAL_USES_LIBRARIES += \
 		androidx.window.extensions \
 		androidx.window.sidecar
 LOCAL_DEX_PREOPT := false
+DONT_DEXPREOPT_PREBUILTS := true
 include $(BUILD_PREBUILT)
