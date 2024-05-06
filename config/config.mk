@@ -14,6 +14,9 @@ PRODUCT_PACKAGES += \
 # Add system packages
 PRODUCT_PACKAGES += valord
 
+# Add sysconfig
+PRODUCT_PACKAGES += milkyway.xml
+
 # Enable blur unless system is Go version
 ifneq ($(PRODUCT_TYPE), go)
 	PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
