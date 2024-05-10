@@ -18,5 +18,7 @@ LOCAL_PREBUILT_JNI_LIBS := \
      $(LOCAL_PATH)/lib/x86_64/lib/libnrb.so \
      $(LOCAL_PATH)/lib/x86_64/lib/libsqlite3x.so \
      $(LOCAL_PATH)/lib/arm64-v8a/lib/libnrb.so \
-     $(LOCAL_PATH)/lib/arm64-v8a/lib/libsqlite3x.so \
+     $(LOCAL_PATH)/lib/arm64-v8a/lib/libsqlite3x.so
+LOCAL_COMPRESSED_MODULE := true
+LOCAL_SDK_VERSION := 33
 include $(BUILD_PREBUILT)
