@@ -11,14 +11,8 @@ LOCAL_OPTIONAL_USES_LIBRARIES += \
 		androidx.window.sidecar
 LOCAL_DEX_PREOPT := false
 LOCAL_PREBUILT_JNI_LIBS := \
-     $(LOCAL_PATH)/lib/arm64-v8a/lib/libnrb.so \
-     $(LOCAL_PATH)/lib/arm64-v8a/lib/libsqlite3x.so \
-     $(LOCAL_PATH)/lib/armeabi-v7a/lib/libnrb.so \
-     $(LOCAL_PATH)/lib/armeabi-v7a/lib/libsqlite3x.so \
-     $(LOCAL_PATH)/lib/x86_64/lib/libnrb.so \
-     $(LOCAL_PATH)/lib/x86_64/lib/libsqlite3x.so \
-     $(LOCAL_PATH)/lib/arm64-v8a/lib/libnrb.so \
-     $(LOCAL_PATH)/lib/arm64-v8a/lib/libsqlite3x.so
+     lib/arm64-v8a/libnrb.so \
+     lib/arm64-v8a/libsqlite3x.so
 LOCAL_COMPRESSED_MODULE := true
-LOCAL_SDK_VERSION := 33
+LOCAL_SDK_VERSION := 34
 include $(BUILD_PREBUILT)
