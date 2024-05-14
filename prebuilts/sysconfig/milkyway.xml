@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
-    <allow-in-power-save-except-idle package="com.machiav3lli.fdroid" />
-    <allow-in-power-save-except-idle package="com.kieronquinn.app.smartspacer" />
-    <allow-in-power-save-except-idle package="org.omnirom.omnijaws" />
+    <allow-in-power-save package="com.machiav3lli.fdroid" />
+    <allow-in-power-save package="com.kieronquinn.app.smartspacer" />
+    <allow-in-power-save package="org.omnirom.omnijaws" />
 
     <allow-unthrottled-location package="org.microg.nlp.backend.nominatim" />
     <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
