@@ -1,6 +1,6 @@
 # Add apps
 PRODUCT_PACKAGES += \
-    NeoStore \
+        NeoStore \
 	UnifiedNlp \
 	MozillaNlpBackend \
 	DejaVuNlpBackend \
@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
 	Nextcloud \
 	Mirror \
 	Smartspacer \
-	SettingsInitializer
+	SettingsInitializer \
+	GameSpace
 
 # Add system packages
 PRODUCT_PACKAGES += valord
