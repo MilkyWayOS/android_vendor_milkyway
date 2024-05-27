@@ -26,4 +26,8 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_REQUIRED_MODULES := privapp-permissions-smartspacer.xml \
                           default-permissions-smartspacer.xml
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+       org.apache.http.legacy \
+       androidx.window.extensions \
+       androidx.window.sidecar
 include $(BUILD_PREBUILT)

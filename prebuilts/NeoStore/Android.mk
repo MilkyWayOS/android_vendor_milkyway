@@ -29,5 +29,8 @@ LOCAL_REQUIRED_MODULES := privapp-permissions-neostore.xml \
                           default-permissions-neostore.xml
 LOCAL_DEX_PREOPT := false
 DONT_UNCOMPRESS_PRIV_APPS_DEXS := true
+LOCAL_OPTIONAL_USES_LIBRARIES := \
+       androidx.window.extensions \
+       androidx.window.sidecar
 include $(BUILD_PREBUILT)
 
